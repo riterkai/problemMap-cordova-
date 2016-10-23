@@ -27,7 +27,7 @@ cordova web app with google map javascipt api v3
 
 ![alt tag](http://i.imgur.com/UrpSzDB.png?1)
 
-點擊搜尋按鈕,可以使用搜尋功能,可以用關鍵字選出要的問題內容
+點擊搜尋按鈕,可以使用搜尋功能,可以用關鍵字選出要的問題內容,點擊list會跳轉地圖頁顯示marker
 
 ![alt tag](http://i.imgur.com/hogD0x6.jpg?2)
 
