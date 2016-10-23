@@ -1,0 +1,39 @@
+<div></div>
+
+<div>
+  <input type="button" id="bad_icon" ng-click="MoveRight();">
+  <img id="bad_icon_img"  src="">
+</div>
+
+
+<div id="cont" data-pct="100" style="background-image:url({{data.img}});" >
+
+
+<svg id="svg" width="200" height="200" viewPort="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <circle r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+  <circle id="bar" r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+</svg>
+</div>
+
+<div>
+  <input type="button" id="good_icon" ng-click="MoveLeft();">
+  <img id="good_icon_img"  src="">
+</div>
+
+<div id ="actpop" ng-init="changVal(data.actprocess)" style="padding-left:30px;padding-right:30px;padding-top:20px; padding-bottom:20px;" ">
+
+    <div class="item item-divider" style="border-width:0px ;background-color:transparent;padding:8px 2px;margin-top:50px;" >
+     
+          <h2 style="margin-bottom:5px; font-size:20px"><b>{{data.title}}</b></h2>
+      <p style="font-size:18px">地址:{{data.address}}</br>時間:{{data.time}}</p>
+    </div>
+
+  
+      
+    <div class="popcontent"  style="padding-top:0px;">
+          <h5 style="font-size:16px">{{data.actcontent}}</h5>
+    </div>
+  
+</div>
+
+     

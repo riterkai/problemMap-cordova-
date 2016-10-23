@@ -1,0 +1,44 @@
+<ion-view view-title="CityFixer" ng-controller="MapCtrl" >
+  
+    <div class="bar bar-header bar-positive item-input-inset">
+      
+      <button class="button button-icon ion-person"></button>
+         <div class="h1 title">CityFixer</div>
+      <a class="button button-icon icon ion-search" href="#/search"></a>
+    
+    </div>
+    
+    <div id="condition-bar" class="button-bar  bars-pos">
+
+       <a class="button   button-light icon-right ion-chevron-down" ng-click="findNearby()">Nearby</a>
+
+       <a class="button   button-light icon-right ion-chevron-down" ng-click="findAll()">All</a>
+       
+
+       <a class="button   button-light icon-right ion-chevron-down" ng-click="findPopular()">Popular</a> 
+
+       <a class="button   button-light icon-right ion-chevron-down" ng-click="showPopup(0,'','','','','',2)">Category</a>
+
+       
+    </div>
+
+
+    <div id="map-canvas" data-ng-init="initailData()" ></div>
+
+        
+
+        <a  id="visual-btn" class="button   button-light icon-right " ng-init ="posstate = 1 ;posstatatext = 'visualize'; " ng-click="posStateChange(posstate)">{{posstatatext}}</a>
+
+       <div id="report-btn">
+          
+       <button class="button button-block button-positive" ng-click="startLine()">Problem Reaport</button>
+
+       </div>
+       
+    </div> 
+     
+</ion-view>
+
+
+
+      
